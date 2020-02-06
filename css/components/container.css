@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
